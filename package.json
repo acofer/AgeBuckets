@@ -1,0 +1,15 @@
+{
+  "name": "agebuckets",
+  "version": "0.0.1",
+  "description": "Read lines from a file in the form \"<name>, <age>\" and do a frequency calculation on age.",
+  "main": "agebuckets.js",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "MIT"
+}
