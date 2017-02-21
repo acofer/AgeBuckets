@@ -24,7 +24,7 @@
 
 	function serial(filename){
 		// if the file is small, use the simplest approach: reading one line at a time
-		var rs = fs.createReadStream(filename, {encoding: "utf8", start: 5 });
+		var rs = fs.createReadStream(filename, {encoding: "utf8"});
 		rs.once("error", (err) => { throw (err); });
 		var rl = readline.createInterface({
 			input: rs
